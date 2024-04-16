@@ -13,4 +13,6 @@ for phoneme in phonemes:
     f1_list = df[phoneme].tolist()
     for f1 in f1_list:
         if f1 != 0.0: phoneme_dict[phoneme] += 1
-print(phoneme_dict)
+    if(phoneme_dict[phoneme] < 100): df.drop(phoneme, axis=1, inplace=True)
+
+df.to_csv('trimDataset.csv')
