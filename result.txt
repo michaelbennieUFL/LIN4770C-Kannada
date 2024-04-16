@@ -7,5 +7,8 @@ precision: 0.67, recall: 0.67, f1: 0.67
 decision tree: features are everything
 precision: 0.85, recall: 0.85, f1: 0.85
 
+decision tree: jlmn cool n
+prf1: 0.6
+
 random classifier: a e i o u (not that it matters)
 precision, recall, f1: 0.51
